@@ -25,38 +25,6 @@
             text-align: center;
             padding: 40px 24px;
         }
-        /* Geometric, minimalist vector representation of the mountain/crescent logo */
-        .logo-mark {
-            width: 70px;
-            height: 70px;
-            margin: 0 auto 20px auto;
-            border: 3.5px solid #1C2D24;
-            border-radius: 50%;
-            position: relative;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-        .logo-mark::before {
-            content: '';
-            position: absolute;
-            bottom: 18px;
-            width: 0;
-            height: 0;
-            border-left: 14px solid transparent;
-            border-right: 14px solid transparent;
-            border-bottom: 18px solid #1C2D24;
-        }
-        .logo-mark::after {
-            content: '';
-            position: absolute;
-            top: 12px;
-            right: 8px;
-            width: 7px;
-            height: 7px;
-            background-color: #1C2D24;
-            border-radius: 50%;
-        }
         .brand-name {
             font-size: 2.2rem;
             font-weight: 700;
@@ -164,12 +132,27 @@
 <body>
 
     <div class="container">
-        <!-- Recreated Brand Logo Identity -->
-        <div class="logo-mark"></div>
+        <!-- Recreated Brand Logo Mark from Deck (Pure Vector Code) -->
+        <svg viewBox="0 0 200 200" width="90" height="90" style="margin: 0 auto 16px auto; display: block;">
+            <!-- Outer crescent loop and tribal path configuration -->
+            <path d="M 160 55 
+                     A 75 75 0 1 0 100 175 
+                     C 42 175, 45 122, 82 105 
+                     A 45 45 0 1 1 160 95" 
+                  fill="none" stroke="#1C2D24" stroke-width="7.5" stroke-linecap="round"/>
+            
+            <!-- Inner ancestral mountain peaks -->
+            <path d="M 68 122 L 92 90 L 110 110 L 130 85 L 148 122" 
+                  fill="none" stroke="#1C2D24" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round"/>
+            
+            <!-- Signature native origin accent dot -->
+            <circle cx="178" cy="68" r="8.5" fill="#1C2D24"/>
+        </svg>
+
         <div class="brand-name">Kinsong</div>
         <div class="tagline">Clean. Conscious. Native.</div>
         
-        <h1>Creating modern rituals with wild origins </h1>
+        <h1>Creating modern rituals with wild origins</h1>
         <p>Sourcing the pure essence of Northeast India to bridge the gap between the inaccessible wild and the conscious consumer. </p>
         
         <div class="treasures-preview">
