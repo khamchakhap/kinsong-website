@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kinsong | Next-Generation B2B Solutions</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
+        body {
+            background-color: #0B0F19;
+            color: #F3F4F6;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .container {
+            max-width: 600px;
+            text-align: center;
+            padding: 40px 20px;
+        }
+        .logo {
+            font-size: 2.5rem;
+            font-weight: 800;
+            letter-spacing: -0.05em;
+            background: linear-gradient(135deg, #3B82F6, #8B5CF6);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 24px;
+        }
+        .badge {
+            display: inline-block;
+            background-color: rgba(59, 130, 246, 0.1);
+            color: #60A5FA;
+            padding: 6px 16px;
+            border-radius: 99px;
+            font-size: 0.875rem;
+            font-weight: 600;
+            margin-bottom: 24px;
+            border: 1px solid rgba(59, 130, 246, 0.2);
+        }
+        h1 {
+            font-size: 2.25rem;
+            font-weight: 700;
+            line-height: 1.25;
+            color: #FFFFFF;
+            margin-bottom: 16px;
+        }
+        p {
+            color: #9CA3AF;
+            font-size: 1.125rem;
+            line-height: 1.6;
+            margin-bottom: 40px;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            width: 100%;
+            max-width: 450px;
+            margin: 0 auto;
+        }
+        @media (min-width: 600px) {
+            form {
+                flex-direction: row;
+                gap: 8px;
+            }
+        }
+        input[type="email"] {
+            flex-grow: 1;
+            background-color: #1F2937;
+            border: 1px solid #374151;
+            color: #FFFFFF;
+            padding: 14px 16px;
+            border-radius: 8px;
+            font-size: 1rem;
+            outline: none;
+            transition: border-color 0.2s;
+        }
+        input[type="email"]:focus {
+            border-color: #3B82F6;
+        }
+        button {
+            background: linear-gradient(135deg, #3B82F6, #7C3AED);
+            color: #FFFFFF;
+            font-weight: 600;
+            padding: 14px 24px;
+            border: none;
+            border-radius: 8px;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: opacity 0.2s;
+            white-space: nowrap;
+        }
+        button:hover {
+            opacity: 0.9;
+        }
+        .footer {
+            margin-top: 60px;
+            font-size: 0.875rem;
+            color: #4B5563;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="badge">Coming Soon</div>
+        <div class="logo">Kinsong</div>
+        <h1>The future of business efficiency is arriving.</h1>
+        <p>We are building a powerful platform designed to streamline operations for enterprises. Request early access to secure your spot for our private beta launch.</p>
+        
+        <!-- Quick Placeholder Form -->
+        <form onsubmit="alert('Thanks for registering interest! We will be in touch soon.'); return false;">
+            <input type="email" placeholder="Enter your business email" required>
+            <button type="submit">Request Priority Access</button>
+        </form>
+
+        <div class="footer">
+            &copy; 2026 Kinsong. All rights reserved.
+        </div>
+    </div>
+
+</body>
+</html>
